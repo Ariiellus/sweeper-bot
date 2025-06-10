@@ -1,0 +1,21 @@
+{
+  "name": "eth-sweeper",
+  "version": "1.0.0",
+  "description": "Command-line tool to sweep all the eth from a compromised wallet",
+  "main": "index.ts",
+  "author": "Ariiellus",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "yarn build && node dist/src/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "command-line-args": "^5.2.0",
+    "ethers": "^5.8.0",
+    "log-timestamp": "^0.3.0"
+  }
+}
